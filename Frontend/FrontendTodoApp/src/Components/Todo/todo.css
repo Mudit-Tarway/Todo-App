@@ -1,0 +1,39 @@
+.todo{
+    width:100%;
+    min-height:90vh;
+    max-height:auto;
+    position:relative;
+}
+#text-area{
+    display:none;
+}
+.submit-button{
+    background-color:rgba(240,0,0,0.87);
+}
+.card{
+    border:2px solid black;
+}
+.card-icon{
+    font-size: 17px;
+    cursor: pointer;
+}
+.card-icons:hover{
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.del{
+    color: red;
+}
+.todo-update{
+    width:100%;
+    height:80vh;
+    position:absolute;
+    position: fixed;
+    top:100px;
+    left:0px;
+    background-color: blanchedalmond;
+    display: none;
+}
+.update{
+    height:100%;
+}

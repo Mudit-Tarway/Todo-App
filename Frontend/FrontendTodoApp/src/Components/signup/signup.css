@@ -1,0 +1,18 @@
+.Signup{
+    width:100%;
+    height:90vh;
+}
+.column{
+    height:100vh;
+}
+.sign-up-heading{
+    font-size:100px;
+    color: rgba(236, 10, 10, 0.836);
+    opacity: 0.8;
+}
+.signup-btn{
+    background-color: rgba(236, 10, 10, 0.836);
+    color:white;
+    outline:none;
+    border:none;
+}
