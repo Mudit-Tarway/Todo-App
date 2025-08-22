@@ -49,15 +49,6 @@ const Navbar = () => {
                   About Us
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/todo"
-                >
-                  Todo
-                </Link>
-              </li>
 
               {!isLoggedIn && (
                 <>
@@ -75,7 +66,17 @@ const Navbar = () => {
               )}
 
               {isLoggedIn && (
-                <li className="nav-item">
+                <div className="d-flex">
+                   <li className="nav-item">
+                <Link
+                  className="nav-link active"
+                  aria-current="page"
+                  to="/todo"
+                >
+                  Todo
+                </Link>
+              </li>
+              <li className="nav-item">
                   <button
                     className="nav-link active nav-btn btn btn-link"
                     onClick={handleLogout}
@@ -83,6 +84,7 @@ const Navbar = () => {
                     Logout
                   </button>
                 </li>
+                </div>
               )}
             </ul>
           </div>
